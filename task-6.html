@@ -9,33 +9,33 @@
   </head>
   <body>
     <p><a href="./index.html">Go back</a></p>
+    <div class="wrapper">
+      <div id="controls">
+        <input
+          class="count-input js-count-input"
+          type="number"
+          min="1"
+          max="100"
+          step="1"
+        />
+        <button
+          class="btn-create js-btn-create btn-general"
+          type="button"
+          data-create
+        >
+          Create
+        </button>
+        <button
+          class="btn-destroy js-btn-destroy btn-general"
+          type="button"
+          data-destroy
+        >
+          Destroy
+        </button>
+      </div>
 
-    <div id="controls">
-      <input
-        class="count-input js-count-input"
-        type="number"
-        min="1"
-        max="100"
-        step="1"
-      />
-      <button
-        class="btn-create js-btn-create btn-general"
-        type="button"
-        data-create
-      >
-        Create
-      </button>
-      <button
-        class="btn-destroy js-btn-destroy btn-general"
-        type="button"
-        data-destroy
-      >
-        Destroy
-      </button>
+      <div id="boxes"></div>
     </div>
-
-    <div id="boxes"></div>
-
     <script src="./js/task-6.js" type="module"></script>
   </body>
 </html>
